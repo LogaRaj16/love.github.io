@@ -8,6 +8,6 @@ session_unset();
 session_destroy();
 
 // Redirect ke halaman login atau halaman awal
-header("Location: index.php"); // Ganti "login.php" dengan halaman yang sesuai
+header("Location: index.html"); // Ganti "login.php" dengan halaman yang sesuai
 exit();
 ?>
