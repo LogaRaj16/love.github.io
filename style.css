@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fde9ec; /* Warna latar belakang yang lembut */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; /* Warna latar belakang konten */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #e91e63; /* Warna tombol yang ceria */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d81b5b; /* Warna tombol saat dihover */
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: 10px;
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content h2 {
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 5px solid #e91e63; /* Bingkai foto dengan warna cinta */
+    border-radius: 10px;
+}
+
+.content p {
+    font-style: italic;
+    color: #c2185b; /* Warna teks yang lembut */
+}
+/* Style untuk layar berukuran kecil (hingga 768px), termasuk tampilan ponsel */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    /* Atur ukuran teks lebih kecil untuk tampilan ponsel */
+    body, input, button {
+        font-size: 14px;
+    }
+}
+
+/* Style untuk layar berukuran sedang (768px hingga 1200px) */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Style untuk layar berukuran besar (di atas 1200px) */
+@media screen and (min-width: 1201px) {
+    .container {
+        width: 60%;
+    }
+}
+/* Style untuk tampilan hak cipta */
+.copyright {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #888;
+}
